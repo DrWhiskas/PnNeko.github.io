@@ -18,12 +18,7 @@ function mainHeader() {
   <aside class="modal">
         <div class="modal__header">
             <div class="modal__header-logo">
-                <img src="/img/index/logoRiot.png" alt="logo de riot games">
                 <img src="./img/index/logoRiot.png" alt="logo de riot games">
-                <img src="../img/index/logoRiot.png" alt="logo de riot games">
-                <img src=".../img/index/logoRiot.png" alt="logo de riot games">
-                <img src="..../img/index/logoRiot.png" alt="logo de riot games">
-                <img src="........./img/index/logoRiot.png" alt="logo de riot games">
             </div>
             <div class="modal__title">
                 <h1> CONNEXION</h1>
@@ -60,9 +55,9 @@ function mainHeader() {
     </aside>    
     <div class ="main-header__content">
         <video autoplay muted loop id="video">
-        <source src="..../img/index/Zeri League Of Legends Game Live Wallpaper.mp4" typer="video/mp4">
+        <source src="../img/index/Zeri League Of Legends Game Live Wallpaper.mp4" typer="video/mp4">
         <audio id="loginAudio" autoplay loop>
-            <source src=".../audio/index/Zeri, The Spark of Zaun  Champion Theme (ft. Lauren Babic)  - League of Legends.mp3">
+            <source src="../audio/index/Zeri, The Spark of Zaun  Champion Theme (ft. Lauren Babic)  - League of Legends.mp3">
         </audio>    
     </div>
     `;
