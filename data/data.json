@@ -1,0 +1,20 @@
+{
+    "champions" : [
+        {
+            "id": "1",
+            "name": "Rengar",
+            "role": "Assassin",
+            "lane": "Jungle",
+            "link": "https://probuildstats.com/champion/rengar",
+            "icon": "Rengar.png"
+        },
+        {
+            "id": "2",
+            "name": "Jinx",
+            "role": "Tireur",
+            "lane": "ADC",
+            "link": "https://probuildstats.com/champion/jinx",
+            "icon": "Jinx.png"
+        }
+    ]
+}

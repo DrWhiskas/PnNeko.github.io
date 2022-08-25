@@ -73,8 +73,8 @@ function modalCheack() {
     e.preventDefault();
     if (pseudo == false || pass == false) {
     } else {
-      /*location = "./ThePn.html";
-      window.location();*/
+      location = "./ThePn.html";
+      window.location();
     }
   });
 }
