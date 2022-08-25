@@ -225,6 +225,7 @@ a {
 
 .white {
   border: 1px solid darkgray;
+  background-color: white;
   color: red;
 }
 
@@ -306,7 +307,7 @@ video {
     color: white;
   }
   .modal__header-logo img {
-    width: 20%;
+    width: 30%;
   }
   .main-header__content {
     width: 100%;

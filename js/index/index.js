@@ -74,7 +74,7 @@ function modalCheack() {
     if (pseudo == false || pass == false) {
     } else {
       location = "./ThePn.html";
-      window.location();
+      window.location(location);
     }
   });
 }
