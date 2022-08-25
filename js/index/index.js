@@ -48,8 +48,8 @@ function mainHeader() {
         </div>
 
         <div class="modal__main__footer">
-            <a href="ThePn.html" class="modal__main__footer__validation">
-                <i class="fa-solid fa-arrow-right fa-2x" id="submit"></i>
+            <a href="ThePn.html" class="modal__main__footer__validation" id="submit">
+                <i class="fa-solid fa-arrow-right fa-2x"></i>
             </a>
         </div>
     </aside>    

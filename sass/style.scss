@@ -193,6 +193,7 @@ video {
 @media only screen and (max-width: 992px) {
     .main-header {
         flex-direction: column;
+        overflow: hidden;
     }
     .modal{
       order: 2;
@@ -229,8 +230,9 @@ video {
 
 }
 @media only screen and (max-width: 568px) {
-    .main-header {
-        display: block;
-        background-color: red;
+    .modal{
+        width: 80%;
+        left: -37%;
+        top: -8%;
     }
 }

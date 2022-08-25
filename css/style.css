@@ -278,6 +278,7 @@ video {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    overflow: hidden;
   }
   .modal {
     -webkit-box-ordinal-group: 3;
@@ -318,9 +319,10 @@ video {
 }
 
 @media only screen and (max-width: 568px) {
-  .main-header {
-    display: block;
-    background-color: red;
+  .modal {
+    width: 80%;
+    left: -37%;
+    top: -8%;
   }
 }
 /*# sourceMappingURL=style.css.map */
