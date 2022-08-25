@@ -19,6 +19,11 @@ function mainHeader() {
         <div class="modal__header">
             <div class="modal__header-logo">
                 <img src="/img/index/logoRiot.png" alt="logo de riot games">
+                <img src="./img/index/logoRiot.png" alt="logo de riot games">
+                <img src="../img/index/logoRiot.png" alt="logo de riot games">
+                <img src=".../img/index/logoRiot.png" alt="logo de riot games">
+                <img src="..../img/index/logoRiot.png" alt="logo de riot games">
+                <img src="........./img/index/logoRiot.png" alt="logo de riot games">
             </div>
             <div class="modal__title">
                 <h1> CONNEXION</h1>
