@@ -57,7 +57,7 @@ function mainHeader() {
         <video autoplay muted loop id="video">
         <source src="./img/index/Zeri League Of Legends Game Live Wallpaper.mp4" typer="video/mp4">
         <audio id="loginAudio" autoplay loop>
-            <source src="./audio/index/Zeri, The Spark of Zaun  Champion Theme (ft. Lauren Babic)  - League of Legends.mp3">
+            <source src="/audio/index/Zeri, The Spark of Zaun  Champion Theme (ft. Lauren Babic)  - League of Legends.mp3">
         </audio>    
     </div>
     `;
