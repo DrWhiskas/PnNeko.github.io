@@ -38,7 +38,7 @@ function headerFactory() {
                 </div>
                 <div class="bar"></div>
                 <div class="lol">
-                    <img src="/img/page/header/lol.png" alt="logo de lol">
+                    <img src="./img/page/header/lol.png" alt="logo de lol">
                 </div>
                 <div class="nav-bar__links">
                     <a href="#" id="jeux">JEUX</a>
