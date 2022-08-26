@@ -212,10 +212,6 @@ a {
 .main-header__content {
   width: 72%;
   overflow: hidden;
-  /*& #video{
-    min-height: 100%;
-    transform: translate(100%,100%);
-  }*/
 }
 
 .blue {
@@ -257,8 +253,8 @@ a {
   background-color: red;
   cursor: pointer;
   border: none;
-  -webkit-transition: all ease-in-out .3s;
-  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
 }
 
 video {
@@ -324,5 +320,120 @@ video {
     left: -37%;
     top: -8%;
   }
+}
+
+/* PAGE */
+#nav-bar {
+  position: fixed;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  height: 8%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-bar__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.normal {
+  display: block;
+  position: absolute;
+  top: 16px;
+}
+
+.hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 6px;
+}
+
+.normal:hover {
+  display: none;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+.bar {
+  background-color: gray;
+  height: 60%;
+  width: 3px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 20px;
+}
+
+.lol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1%;
+}
+
+.lol img {
+  height: 65%;
+}
+
+.nav-bar__links {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 3%;
+}
+
+.nav-bar__links a {
+  color: white;
+  padding: 27px 23px;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-bar__links a:hover {
+  border: 2px solid lightblue;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  color: lightblue;
+}
+
+.page-header {
+  width: 100%;
+  height: 820px;
+  overflow: hidden;
+}
+
+.page-header .main-header__video {
+  width: 100%;
+  overflow: hidden;
+}
+
+.page-header .main-header__video .header-video {
+  -webkit-transform: translate(0%, -12%);
+          transform: translate(0%, -12%);
 }
 /*# sourceMappingURL=style.css.map */

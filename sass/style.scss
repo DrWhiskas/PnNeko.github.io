@@ -10,7 +10,7 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden; /* Hide scrollbars */
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -141,10 +141,6 @@ a{
 .main-header__content {
   width: 72%;
   overflow: hidden;
-  /*& #video{
-    min-height: 100%;
-    transform: translate(100%,100%);
-  }*/
 }
 .blue {
   background-color: royalblue;
@@ -169,12 +165,12 @@ a{
     color: darkgray;
     border: 1px solid darkgray;
     border-radius: 30%;
-    &:hover{
+    &:hover {
       color: white;
       background-color: red;
       cursor: pointer;
       border: none;
-      transition: all ease-in-out .3s;
+      transition: all ease-in-out 0.3s;
     }
   }
 }
@@ -191,48 +187,138 @@ video {
 }
 
 @media only screen and (max-width: 992px) {
-    .main-header {
-        flex-direction: column;
-        overflow: hidden;
+  .main-header {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .modal {
+    order: 2;
+    position: absolute;
+    background-color: revert;
+    background-color: rgba(201, 201, 201, 0.1);
+    border: 1px solid rgb(19, 3, 3);
+    border-radius: 20px;
+    width: 50%;
+    padding: 1%;
+    transform: translate(55%, 10%);
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .modal__header {
+    margin-top: 8%;
+  }
+  .modal__title {
+    margin-top: 5%;
+    & h1 {
+      text-shadow: 1px 1px 2px black;
+      color: white;
     }
-    .modal{
-      order: 2;
-      position: absolute;
-      background-color: revert;
-      background-color: rgba(201, 201, 201, 0.1);
-      border: 1px solid rgb(19, 3, 3);
-      border-radius: 20px;
-      width: 50%;
-      padding: 1%;
-      transform: translate(55%, 10%);
-      margin-top: 10%;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    .modal__header{
-      margin-top: 8%;
-    }
-    .modal__title{
-      margin-top: 5%;
-      & h1{
-        text-shadow: 1px 1px 2px black;
-        color: white;
-      }
-    }
-    .modal__header-logo img{
-      width: 30%;
-    }
-    .main-header__content{
-      width: 100%;
-    }
-    .modal__main__footer__validation{
-      margin-top: 20%;
-    }
-
+  }
+  .modal__header-logo img {
+    width: 30%;
+  }
+  .main-header__content {
+    width: 100%;
+  }
+  .modal__main__footer__validation {
+    margin-top: 20%;
+  }
 }
 @media only screen and (max-width: 568px) {
-    .modal{
-        width: 80%;
-        left: -37%;
-        top: -8%;
+  .modal {
+    width: 80%;
+    left: -37%;
+    top: -8%;
+  }
+}
+
+/* PAGE */
+#nav-bar {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  background-color: black;
+  height: 8%;
+  width: 100%;
+  overflow: hidden;
+}
+.nav-bar__logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.logo {
+  height: 40px;
+  display: flex;
+    cursor: pointer;
+
+}
+.normal {
+  display: block;
+  position: absolute;
+  top: 16px;
+}
+.hover {
+  display: flex;
+  margin-top: 6px;
+
+}
+.normal:hover {
+  display: none;
+  transition: all ease-in-out 0.2s;
+}
+
+.bar{
+  background-color: gray;
+  height: 60%;
+  width: 3px;
+  align-self: center;
+  margin-left: 20px;
+}
+// LOGO DE LOL
+.lol {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  & img{
+    height: 65%;
+  }
+} 
+
+// NAV BAR LINKS
+
+.nav-bar__links{
+  align-self: center;
+  margin-left: 3%;
+  & a{
+    color: white;
+    padding: 27px 23px;
+    transition: all ease-in-out .3s;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    &:hover{
+        border: 2px solid lightblue;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        color: lightblue;
+        
     }
+  }
+}
+
+.page-header{
+  width: 100%;
+  height: 820px;
+  overflow: hidden;
+  & .main-header__video{
+    width: 100%;
+    overflow: hidden;
+    & .header-video{
+      transform: translate(0%, -12%);
+    }
+  }
 }
