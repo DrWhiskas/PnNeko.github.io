@@ -41,11 +41,11 @@ function headerFactory() {
                     <img src="./img/page/header/lol.png" alt="logo de lol">
                 </div>
                 <div class="nav-bar__links">
-                    <a href="#" id="jeux">JEUX</a>
-                    <a href="#" id="video">VIDEO</a>
-                    <a href="#" id="esport">ESPORT</a>
-                    <a href="#" id="patch">PATCH NOTES</a>
-                    <a href="#" id="arcane" >ARCANE</a>
+                    <div class="links" id="jeux">JEUX</div>
+                    <a href="#" class="links" id="video">VIDEO</a>
+                    <a href="#" class="links" id="esport">ESPORT</a>
+                    <a href="#" class="links" id="patch">PATCH NOTES</a>
+                    <a href="#" class="links"  id="arcane" >ARCANE</a>
                 </div>
         `;
   header.appendChild(headerContent);
@@ -56,5 +56,11 @@ headerFactory();
 
 function mainFactory(){
     const main = document.getElementById("main")
+    const mainContent = document.createElement('section')
+    mainContent.id = "main-info";
+        mainContent.innerHTML = `
+        
 
+    `;
+    main.appendChild(mainContent)
 }

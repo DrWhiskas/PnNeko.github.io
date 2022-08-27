@@ -251,8 +251,7 @@ video {
 .logo {
   height: 40px;
   display: flex;
-    cursor: pointer;
-
+  cursor: pointer;
 }
 .normal {
   display: block;
@@ -262,14 +261,13 @@ video {
 .hover {
   display: flex;
   margin-top: 6px;
-
 }
 .normal:hover {
   display: none;
   transition: all ease-in-out 0.2s;
 }
 
-.bar{
+.bar {
   background-color: gray;
   height: 60%;
   width: 3px;
@@ -281,44 +279,52 @@ video {
   display: flex;
   align-items: center;
   margin-left: 1%;
-  & img{
+  & img {
     height: 65%;
-  }
-} 
-
-// NAV BAR LINKS
-
-.nav-bar__links{
-  align-self: center;
-  margin-left: 3%;
-  & a{
-    color: white;
-    padding: 27px 23px;
-    transition: all ease-in-out .3s;
-    font-size: large;
-    font-weight: bold;
-    letter-spacing: 1px;
-
-    &:hover{
-        border: 2px solid lightblue;
-        border-left: none;
-        border-top: none;
-        border-right: none;
-        color: lightblue;
-        
-    }
   }
 }
 
-.page-header{
+// NAV BAR LINKS
+
+.nav-bar__links {
+  align-self: center;
+  margin-left: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.links {
+  color: white;
+  padding: 27px 23px;
+  transition: all ease-in-out 0.3s;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  &:hover {
+    border: 2px solid lightblue;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: lightblue;
+  }
+}
+
+/*.page-header {
   width: 100%;
   height: 820px;
   overflow: hidden;
-  & .main-header__video{
+  & .main-header__video {
     width: 100%;
     overflow: hidden;
-    & .header-video{
+
+    & .header-video {
       transform: translate(0%, -12%);
     }
   }
+}*/
+
+/* INFO */
+
+.sadge{
+  height: 500px;
 }
