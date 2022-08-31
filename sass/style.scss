@@ -44,15 +44,26 @@ a {
         background-color: rgba(201, 201, 201, 0.7);
       }
     }
-    &__change{
+    &__change {
       cursor: pointer;
       padding: 0 20px;
-      &:hover{
+      &:hover {
         color: red;
         transition: all ease-in-out 0.5s;
       }
-
     }
+  }
+}
+// ANIMATION
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
   }
 }
 
@@ -97,6 +108,13 @@ a {
     flex-direction: column;
     margin-top: 70px;
     align-items: center;
+    @for $i from 1 through 13 {
+      &:nth-child(#{$i}n) {
+        animation-fill-mode: both;
+        animation-delay: 0.5s * $i;
+      }
+    }
+    animation: apparition 0.9s;
     &__form {
       height: auto;
       width: 100%;
@@ -335,10 +353,10 @@ video {
 
 /* INFO */
 
-.sadge{
+.sadge {
   height: 500px;
 }
 
-.removed{
+.removed {
   display: none;
 }

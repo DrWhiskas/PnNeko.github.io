@@ -70,6 +70,32 @@ a {
   transition: all ease-in-out 0.5s;
 }
 
+@-webkit-keyframes apparition {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
 /* MAIN */
 /* HEADER */
 .main-header {
@@ -134,6 +160,99 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: apparition 0.9s;
+          animation: apparition 0.9s;
+}
+
+.modal__main:nth-child(1n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.modal__main:nth-child(2n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.modal__main:nth-child(3n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.modal__main:nth-child(4n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.modal__main:nth-child(5n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.modal__main:nth-child(6n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.modal__main:nth-child(7n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+
+.modal__main:nth-child(8n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.modal__main:nth-child(9n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
+.modal__main:nth-child(10n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.modal__main:nth-child(11n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+
+.modal__main:nth-child(12n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.modal__main:nth-child(13n) {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
 }
 
 .modal__main__form {
