@@ -27,6 +27,7 @@ a {
     margin-right: 2%;
     font-size: large;
     color: white;
+    margin-top: 10px;
     &__cross {
       padding: 0 20px;
       &:hover {
@@ -42,6 +43,15 @@ a {
         transition: all ease-in-out 0.5s;
         background-color: rgba(201, 201, 201, 0.7);
       }
+    }
+    &__change{
+      cursor: pointer;
+      padding: 0 20px;
+      &:hover{
+        color: red;
+        transition: all ease-in-out 0.5s;
+      }
+
     }
   }
 }
@@ -327,4 +337,8 @@ video {
 
 .sadge{
   height: 500px;
+}
+
+.removed{
+  display: none;
 }

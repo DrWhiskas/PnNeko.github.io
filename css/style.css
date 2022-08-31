@@ -34,6 +34,7 @@ a {
   margin-right: 2%;
   font-size: large;
   color: white;
+  margin-top: 10px;
 }
 
 .index-header__link__cross {
@@ -56,6 +57,17 @@ a {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   background-color: rgba(201, 201, 201, 0.7);
+}
+
+.index-header__link__change {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.index-header__link__change:hover {
+  color: red;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
 }
 
 /* MAIN */
@@ -441,5 +453,9 @@ video {
 /* INFO */
 .sadge {
   height: 500px;
+}
+
+.removed {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
