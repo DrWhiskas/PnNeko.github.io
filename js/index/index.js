@@ -16,7 +16,7 @@ function mainHeader() {
   const mainContent = document.createElement("section");
   mainContent.classList.add("main-header");
   mainContent.innerHTML = `
-  <aside class="modal">
+  <aside class="modal" id="zeri">
         <div class="modal__header">
             <div class="modal__header-logo">
                 <img src="./img/index/logoRiot.png" alt="logo de riot games">
@@ -100,7 +100,7 @@ function rengarTheme(){
   const mainContent = document.createElement("section");
   mainContent.classList.add("main-header");
   mainContent.innerHTML = `
-  <aside class="modal">
+  <aside class="modal" id="rengar">
         <div class="modal__header">
             <div class="modal__header-logo">
                 <img src="./img/index/logoRiot.png" alt="logo de riot games">
@@ -148,9 +148,10 @@ function rengarTheme(){
     `;
   mainHeader.appendChild(mainContent);
 }
-
 indexHeader();
-rengarTheme();
+mainHeader();
 modalCheack();
+
+
 
 

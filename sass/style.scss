@@ -54,6 +54,10 @@ a {
     }
   }
 }
+.text-control{
+  font-size: 23px;
+  font-weight: bolder;
+}
 // ANIMATION
 
 @keyframes apparition {
@@ -268,7 +272,6 @@ video {
   background-color: black;
   height: 8%;
   width: 100%;
-  overflow: hidden;
 }
 .nav-bar__logo {
   display: flex;
@@ -336,6 +339,14 @@ video {
     color: lightblue;
   }
 }
+
+.dropdown{
+  align-self: center;
+  & *{
+    box-sizing: border-box;
+  }
+}
+
 
 /*.page-header {
   width: 100%;

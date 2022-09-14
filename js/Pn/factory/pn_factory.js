@@ -41,15 +41,22 @@ function headerFactory() {
                     <img src="./img/page/header/lol.png" alt="logo de lol">
                 </div>
                 <div class="nav-bar__links">
-                    <div class="links" id="jeux">JEUX</div>
-                    <a href="#" class="links" id="video">VIDEO</a>
-                    <a href="#" class="links" id="esport">ESPORT</a>
-                    <a href="#" class="links" id="patch">PATCH NOTES</a>
-                    <a href="#" class="links"  id="arcane" >ARCANE</a>
+                            jeux
+                        <ul class="menu">
+                            <li><a href="https://www.leagueoflegends.com/fr-fr/">LEAGUE OF LEGENDS</a></li>
+                            <li><a href="https://playvalorant.com/fr-fr/?gclsrc=ds&gclsrc=ds">VALORANT</a></li>
+                            <li><a href="https://teamfighttactics.leagueoflegends.com/fr-fr/">TFT</a></li>
+                        </ul>
+                        </div>
+                    <a href="#" class="links" id="link__video">VIDEO</a>
+                    <a href="#" class="links" id="link__esport">ESPORT</a>
+                    <a href="#" class="links" id="link__patch">PATCH NOTES</a>
+                    <a href="#" class="links"  id="link__arcane" >ARCANE</a>
                 </div>
         `;
   header.appendChild(headerContent);
 }
+
 headerFactory();
 
 /* MAIN FACTORY */

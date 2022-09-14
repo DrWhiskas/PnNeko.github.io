@@ -70,6 +70,11 @@ a {
   transition: all ease-in-out 0.5s;
 }
 
+.text-control {
+  font-size: 23px;
+  font-weight: bolder;
+}
+
 @-webkit-keyframes apparition {
   from {
     opacity: 0;
@@ -463,7 +468,6 @@ video {
   background-color: black;
   height: 8%;
   width: 100%;
-  overflow: hidden;
 }
 
 .nav-bar__logo {
@@ -554,6 +558,17 @@ video {
   border-top: none;
   border-right: none;
   color: lightblue;
+}
+
+.dropdown {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.dropdown * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*.page-header {
